@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+button {
+  border: 1px solid black;
+  background: transparent;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  margin: 0;
+  /* margin-top: 1rem; */
+}
+.submit-btn {
+  margin-top: 1rem;
+}
+.input-lablel {
+  margin-bottom: 1rem;
+}
+.error {
+  font-size: 10px;
+  color: red;
+}
+/* nav */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 1rem 10rem;
+  background-color: rgba(33, 179, 43, 0.722);
+}
+.nav-grp {
+  display: flex;
+  gap: 1rem;
+}
+/* nav Ended */
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 80ch;
+  padding: 2rem 0;
+}
+
+/* all app */
+.all-app,
+.all-job {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-inline: 5rem;
+}
+.card {
+  /* width: 400px; */
+  padding: 2rem;
+  display: grid;
+  gap: 0.3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+/* card ended*/
+
+/* footer */
+.footer {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  padding: 1rem 10rem;
+  background-color: black;
+}
+/* footer ended */

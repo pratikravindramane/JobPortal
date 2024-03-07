@@ -1,0 +1,32 @@
+2 users admin and candidates
+create job cat, type, listings.
+
+modules
+user, done
+application, done
+jobs, done
+job categories, done
+job type, done
+
+
+backend routes
+
+-candidates
+    login (rd)
+    register (rd)
+    view all jobs (rd)
+    view one job (rd)
+    apply for with profile (rd)
+    apply with fields (rd)
+    get all user application (rd)
+    view one application (rd)
+-admin
+    create, update, delete jobs, (rd)
+    create, update, delete, view,get all jobs categories, (rd)
+    create, update, delete, view,get all jobs type, (rd)
+    update application status (rd)
+    get user, get user all application, get user one application  (rd)
+
+
+
+
